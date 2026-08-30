@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import './globals.css';export const metadata:Metadata={title:'PCTI Thermal Exposure Lab',description:'Research validation platform for personalized instantaneous and cumulative thermal exposure.'};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
